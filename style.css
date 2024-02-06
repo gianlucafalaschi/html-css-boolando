@@ -28,6 +28,7 @@ a{
     display: flex;
     background-color: grey;
     min-height: 30px;
+    border: 1px dashed black;
 }
 
 /* HEADER */
@@ -88,3 +89,21 @@ header .menu{
 } 
 
 /* MAIN */
+
+.row{
+    display: flex;
+    flex: wrap;
+    width: 100%;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    display: flex;
+}
+
+.col-33 img{
+    width: 100%;
+}
+/* .card{
+    position: relative;
+}  */
