@@ -23,8 +23,8 @@ a{
     width: 80%;
     max-width: 1200px;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
     display: flex;
     background-color: grey;
     min-height: 30px;
@@ -99,6 +99,19 @@ header .menu{
 .col-33{
     width: calc(100% / 3);
     display: flex;
+}
+
+.col-33left{
+    padding-right: 8px;
+}
+
+.col-33center{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-33right {
+    padding-left: 8px;
 }
 
 .col-33 img{
