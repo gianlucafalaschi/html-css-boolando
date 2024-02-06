@@ -5,3 +5,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* TIPOGRAPHY */
+header {
+    color: white;
+}
+
+/* GRID LAYOUT */
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    background-color: grey;
+    min-height: 30px;
+}
+
+/* HEADER */
+
+header{
+    background-color:#FF6900;
+    box-shadow: 0 0 5px 0 #B38E74;
+    display: flex;
+}
+
+header .container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .menu {
+/*     width: 20%;
+ */}
+
+header .icons{
+     width: 20%;
+ }
+
+header .logo{
+   display: flex;
+   justify-content: center;
+  }
+
+.logo img{
+     max-width:20%;
+     text-align: center;
+ }
+
+header .menu{
+    display: flex;
+    flex-grow: 1;
+    width:30% ;
+}
+
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    padding: 0 4px;
+} 
