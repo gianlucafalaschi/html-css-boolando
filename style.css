@@ -241,3 +241,16 @@ footer .left-foot > span{
 footer h4{
     font-size: 12px;
 }
+
+/* HOVER */
+.col-33 .card-image-hover{
+    display: none;
+}
+
+.col-33:hover .card-image-hover {
+    display: block;
+}
+
+.col-33:hover .card-image-default {
+    display: none;
+}
