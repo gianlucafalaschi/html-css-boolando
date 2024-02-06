@@ -6,8 +6,15 @@
     box-sizing: border-box;
 }
 
+
+
 /* TIPOGRAPHY */
 header {
+    color: white;
+}
+
+a{
+    text-decoration: none;
     color: white;
 }
 
@@ -28,12 +35,13 @@ header{
     background-color:#FF6900;
     box-shadow: 0 0 5px 0 #B38E74;
     display: flex;
+    margin-bottom: 40px;
 }
 
 header .container{
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 header .menu {
@@ -42,6 +50,12 @@ header .menu {
 
 header .icons{
      width: 20%;
+     justify-content: flex-end;
+     display: flex;
+ }
+
+ .icons span {
+    padding: 0 4px;
  }
 
 header .logo{
@@ -67,3 +81,5 @@ header .menu{
     list-style: none;
     padding: 0 4px;
 } 
+
+/* MAIN */
