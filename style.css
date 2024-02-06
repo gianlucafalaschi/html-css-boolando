@@ -11,12 +11,35 @@
 /* TIPOGRAPHY */
 header {
     color: white;
+    font-size: 16px;
 }
 
 a{
     text-decoration: none;
     color: white;
 }
+
+
+.description .brand, .description .price, .description .oldprice{
+    font-size: 14px;
+}
+
+
+.description .product{
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.description .price{
+    color:#FF0000;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.description .oldprice{
+    text-decoration: line-through;
+}
+
 
 /* GRID LAYOUT */
 .container{
@@ -26,6 +49,7 @@ a{
     padding-left: 0px;
     padding-right: 0px;
     display: flex;
+    flex-wrap: wrap;
     background-color: grey;
     min-height: 30px;
     border: 1px dashed black;
@@ -98,8 +122,8 @@ header .menu{
 
 .col-33{
     width: calc(100% / 3);
-    display: flex;
-}
+/*     display: flex;
+ */}
 
 .col-33left{
     padding-right: 8px;
@@ -117,6 +141,10 @@ header .menu{
 .col-33 img{
     width: 100%;
 }
+
+
+
 /* .card{
     position: relative;
 }  */
+
