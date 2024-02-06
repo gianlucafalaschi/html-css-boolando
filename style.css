@@ -57,7 +57,7 @@ a{
     padding-right: 0px;
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: trasparent;
     min-height: 30px;
     border: 1px dashed black;
 }
@@ -65,10 +65,15 @@ a{
 /* HEADER */
 
 header{
+    width: 100%;
     background-color:#FF6900;
     box-shadow: 0 0 5px 0 #B38E74;
-    display: flex;
-    margin-bottom: 40px;
+    display: flex;     
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
 }
 
 header .container{
@@ -120,6 +125,10 @@ header .menu{
 } 
 
 /* MAIN */
+
+main .container{
+    margin-top: 80px;
+}
 
 .row{
     display: flex;
@@ -208,15 +217,27 @@ footer {
 footer .container{
     min-height: 40px;
     display: flex;
+    justify-content: space-between;
     padding: 15px 0;
 }
 
 footer .container{
     color:white;
     line-height: 1.5;
+    background-color: transparent;
 }
 
 footer .left-foot > span{
     margin: 0 4px 0 0;
+    font-size: 12px;
+}
+
+.right-foot{
+    width: 20%;
+    text-align: center;
+   
+}
+
+footer h4{
     font-size: 12px;
 }
