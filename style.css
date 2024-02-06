@@ -200,3 +200,23 @@ header .menu{
     margin-bottom:40px ;
 }
 
+/* FOOTER */
+footer {
+    background-color:#1A1A1A;
+}
+
+footer .container{
+    min-height: 40px;
+    display: flex;
+    padding: 15px 0;
+}
+
+footer .container{
+    color:white;
+    line-height: 1.5;
+}
+
+footer .left-foot > span{
+    margin: 0 4px 0 0;
+    font-size: 12px;
+}
