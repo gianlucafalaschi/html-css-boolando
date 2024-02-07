@@ -248,7 +248,7 @@ footer h4{
 }
 
 .col-33:hover .card-image-hover {
-    display: block;
+    display: inline-block;
 }
 
 .col-33:hover .card-image-default {
